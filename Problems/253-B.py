@@ -24,6 +24,8 @@ for x in ls:
         elif tmp2 != -1:
             ans = count + abs(tmp1 - tmp2)
             break
-    count += 1
+
+    if tmp1 != -1:
+        count += 1
 
 print(ans)
