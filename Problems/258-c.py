@@ -1,0 +1,1 @@
+ls_W = list(map(int,input().split()))
